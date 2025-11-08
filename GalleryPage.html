@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gallery - Euphoria The Sky Lounge</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+    </style>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#259df4",
+              "background-light": "#f5f7f8",
+              "background-dark": "#101a22",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden group/design-root">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col w-full max-w-[960px] flex-1">
+<header class="sticky top-0 z-40 w-full backdrop-blur-lg" style="background: rgba(16, 16, 18, 0.8);">
+<div class="mx-auto flex max-w-7xl items-center justify-between whitespace-nowrap px-6 py-4">
+<div class="flex items-center gap-4 text-white">
+<div class="h-7 w-7 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="font-display text-xl font-bold leading-tight tracking-[-0.015em] text-white">Euphoria The Sky Lounge</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="homePage.html">Home</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="aboutPage.html">About</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="menuPage.html">Menu</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="EventsPage.html">Events</a>
+<a class="text-sm font-medium text-white transition-colors hover:text-primary" href="GalleryPage.html">Gallery</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="contact.html">Contact</a>
+</nav>
+<button class="hidden min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 md:flex">
+<span class="truncate">Book a Table</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<!-- HeaderImage -->
+<div class="@container mt-4">
+<div class="@[480px]:px-4">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-[#101b23] @[480px]:rounded-xl min-h-[400px]" data-alt="A panoramic night view of a luxurious rooftop lounge with city lights in the background." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 40%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWyxHoIpIQSbTu8a4LkZFo41DMGcxDsuSGjZzsvH1lPw7Wirk3saurDkjMkzt8Jrq4JV5HKcrt6p_cX5DbrpNxoHFEtiji1XD0aCF0uuLWZl2qg6IcwW0YnY2WZaqIIAANF-DrGCDhrDBVqF9j2OkxPbV-hSS1Ry9KPRfInedQGiXaM_BhC7lHYw_qwGwXCob338TirMCQy_y_qbop8DOpPcG-HzBejj55QChyjJtjKs0obQFZNQEXqp4ClRfSWOYB-PWKPgmwc8Ag");'>
+<div class="p-8">
+<h1 class="text-white text-[32px] sm:text-[40px] font-bold leading-tight tracking-tight">Gallery &amp; Moments</h1>
+<p class="text-white/80 mt-1 max-w-md">Experience the Vibe. Cherish the Memories.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Chips / Filters -->
+<div class="flex gap-2 sm:gap-3 p-4 flex-wrap">
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary pl-4 pr-4 text-white text-sm font-medium leading-normal">
+                                All
+                            </button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 hover:bg-white/20 pl-4 pr-4 text-white text-sm font-medium leading-normal">
+                                Ambiance
+                            </button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 hover:bg-white/20 pl-4 pr-4 text-white text-sm font-medium leading-normal">
+                                Food
+                            </button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 hover:bg-white/20 pl-4 pr-4 text-white text-sm font-medium leading-normal">
+                                Events
+                            </button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 hover:bg-white/20 pl-4 pr-4 text-white text-sm font-medium leading-normal">
+                                Guests
+                            </button>
+</div>
+<!-- ImageGrid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
+<div class="flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" data-alt="A stylishly lit indoor seating area of the lounge." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAK6p5IoPr2j59w6C6P-8tBHxVnYdNsWRzh4-II14NmnfRpQq2kR0VbsB90OQ0jiuOY1vHoNsXS_fiVWbI_-EcZBgd7GsIwWKcbVhuZ8cu_nnHXK7Z2X0M7_bToeqAFkEgN44uYj3cADJ7kXUchyoRuK-Xc-z9q0HHE5Jd3jHMXSx4lGLVjgbTRHonkvSScfp8nNK2JhP-TEguL_b2YW49Z_QjOteVPp6en_SE3ibEmox7-Tn5oGxBnkuL8ZLI-Neo6qYBve4HwkD1g");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A close-up shot of a colorful gourmet dish." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA9YlnmMrygOR0jgpyvbEt24Ij1qB1yYWR9-ELZRYM_FZMslqXOMVlhH04Wfx7p_a0kiX9dYlr0J84bEfrxEcg5gsXhOh-LADFNSjBNQWYk09e129RFvSno4-bKxjRqDxTxrCRNzKRTYYB86eNxliLF7H2ZMgsuWdyrtkQ2XbiZmY5ZRWJWNnyH--f1oyg_dyo9N2sQKwohHcNAC9nxUD66SLhFR8P8A290OA3gnrkS34s2KmkKBRotwCrxzcUlLe_Bb5eD3teCIhwA");'></div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A signature cocktail with a neon glow." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1dBP2cwbdWMZNhKeWr-CJf8LSBnyutmNeC4dbmlRFK1JcIRgXJBJihgCDIccRlCRiWgbfgUYCWPojTnAFayNeYjMC9Gj21pkHCd5OM8R68gVK3Yas151Xs2Zry3G2Ql74o6Qp79hsDeBRNbiuXTdyic-y5whkIWZg-kbPUWYU_77jEOfuMsgXbIzPUtB_OiS2nxIXHaP-CfAHHRDqZ7RQW_wKPyBxLDUdkWuQmYOxvhk25RcqgHTjLgyxJL6QaMBDBsAhu9FDXAsE");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" data-alt="Guests enjoying themselves during a live music event." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCj63dNE9SjOKwv69t4caTM6mAfLXzkt_CHF7XLQ2EpPwPJtCqyNEPJZOysogh50HMNAaa7Dp0UE3tb7ozrW1OruD7GImn5ApUjeayceUMNMqfsiPJnryPLmEOXaYBtQa9_KyjPOCCRSaapAEFb-e687qZr1cRBkf-aaosfpXmaV39kXRW4PgMEzIgKX1fE1Sye2qdyqPdR48GS6lemEP_MmbUcwhvb3CBC9emXI-hQs0sPHwc38PpxqPDWPEMDuIXCd2PxBR-ft8ff");'></div>
+</div>
+<div class="hidden sm:flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" data-alt="The rooftop terrace with a view of the city skyline." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTx4HHcdBZtZ0z1D9AUr8SzRJDoIAvK1CpYJKoQhZHn_GYkmaIMj7hMFujetAG119lnj2jRTl4xn-BAhu7Em0LDJ5NHOSyOiicL9vQqJAioIQ5j1YmdYBoASsH-3TgZaELFzIu8nz5yhSFtuYjL6D3kc-gL5TUYKu6fxlD2vp6r2HiVhn60WQsSu1hUU4JobmR2GX3B4oPTVL47OIF-xRxE7UuJdFwCMyImF4DgeBcmCz1Xz6hSIygr6_Dmsa5woHXPf9-F3EmWQTf");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A DJ performing at an event." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBg76JnT6Uc_Dx5ai2HxtgMAccchGQ3uZopez5rlEv7DvtqEsGQll_FSIM1T0zksUFnqDJspIGzeks-IdFmEI5MNrfW6r2d0TMYme1IlAwx_BmqLyqVTpT1F8YDHjAn7KzbOY884rU6CcT3zELvCP2wam91liBIEyLCaq5YGXx15VU0nn6LHpNY2fowttWBi-3AFdZlFtQt7VxGx_Vqxxilj34yz1Y9JPcG7bw0r6hC5qFR-7SifG-prsAFwCVWNmr9AxzDyhodNEHY");'></div>
+</div>
+<div class="hidden md:flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A platter of appetizers beautifully arranged." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCedk3a3kPgnmeR_ljbTWSRnDlXXdBUJb0uDcWxxTLy81VfthToAqy7QTE35T2tK-qj1W4yIKVwfN--isJJb2B6lTBYjglyWFgBdQJwraUnpqAUSCOrSgsHPXl07Vb9zJO9ur7_H0I_mhZJ4npHFcMhQA_CmPuvnFxlbJV8YyL0QIwP2GUAKOQJ4V9j6klgNsUPooHfxpNTWJLiiV3KQ7Y_Pd89ukiaAsLToT9HRWeayeAHT2fiok62BGGckvS7TCiffTjiCplu9gaw");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" data-alt="A couple enjoying the view from the lounge." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDBpbJtzkSqM46f92M94ehVBU0VnlCLCMP1-KPtH4JlpOOEm9-Nm6UbinVgDKoF0w17uyUPSR2__iC-d4EoDmOnEB-fRl9fz47-BnimWYYkfP4XiMyiW9oXArFJa6U0wYbFHy6eFvPN4pSMX6InKzfe6HoeoonQ6M9LlSTv3tmDdk41LWYWeh2Or5Bv4j0r1sk5Grf6b_lbzbm-EA5i29iPrli3yz4n5mTGATR8xMs_OHcgEn4KjN6BeEs_pppKMe0eYarv5MhqW2Tz");'></div>
+</div>
+</div>
+<!-- Instagram SectionHeader -->
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-12">Join Our Journey on Instagram</h2>
+<!-- Instagram Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4 p-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post showing a colorful cocktail." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCNBhaOlKXmKDoqgB-IFV6jje_s4OmE5jC9h1bjEObeD5_PtTEY1v0gyQOgp8ENcWvj3gsA4L1k22kEw3ZXq51Aex4i9D5bg1nijWcOWVYRGMOgJjKpBrS2fjapvxJFB-TVSamOGOwJBPXfUOBT1L7B_QAYvZVum2ZfxE_E9vo-JmMee8GGM88P5tCFvNKyLDvVIAFBoffPTmccEKe16lEpxbrqddlQWM2YRc7NdBywlPZ1nsRHSQZ1GmslVgCHaR8ga_4ULUntiXTt");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post of the lounge's exterior at night." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCssTefuhjDbNOhty4hexQ9spYTSOwrDC6Cky89M17d-W1SCTjh7H45tqeOFJwM2IH6vSYvOoaZNxA9-JIJYIooTrOTsi-WHYxwIWbZlre-9A1rHeEZRa-nSAtLMevvErL9QJ9eknA5FNIcekjUEiAXQTAZYFtJUMvYcUG5h9eb2ZX3nJZndDgIL_c79fUUwLALPusJADZgcuNesYOXiQREllXaErNodeHioQTZIBygqdRonfA5TU_-9ZoeU12e3uvV_2YChK8vlkhP");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post featuring a special event announcement." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBd0EHQhrIa9q4pvJtNIzS5Y4AbfpSHLPCP5XfO7aQ50EfeBwfVQnAcRgFTcJBz02hqLwHnQHcGJsCJtSfOIj2RF2jUjGpifuv0YFCfxvWaOI9RfZMXNa3S3ykyxRZPVeD13p97ImlH2juxYSOWDyD6J1fLYfQExcSnmJVqpYaw4hRpEoNNcc7UT1HcOMEUEghc3ixpKlxCS72n8t9j538lODGS6qituf_ajN3V3ieP-efbvhm0oCPuW9xHnl-OmA2Gm6viQ0JGT8LS");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post of a delicious dessert." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCPtzjMPBC2-CV9QaWgHiWtsbBae-JbcKY2dK0oxktaJUWmOqxYXZas19kDamLZItnFRF1CTbq6GX-N4hQcTTYHIWPsQaTQqvrdLoVCXXRksoDZC1hjRYvG3rJOeQwFyR_JbUNSHn5genKpjyE3SXDUdt2Z-YEXVGVVRU8b0adJEtVqk2h_Quim7uD7ii5d680Eys7sOqH2nWUVxtrR3shz7fjvs-QfgO4EtjeRDfhlGRznU88jqunNJSKPLvydNLjjCcha1V2pLP4R");'></div>
+<div class="hidden sm:block w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post of guests having fun." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCjPcZZO0utMdmnsI3xNAlbmJB7HKy1QZ1XPu3uZBNDz4GhvHjoM8nuW3xJIpAdsvGJv32XnLIGo18igSkoXAxxpmpeUwVrZIwU2NG7dY1ELVhOcy0YWPYhnju82D0fimMmeA2l_2Ms4Nmi-Dyj7UBfMFfa4kLEWQxvhku9Kh-0icacIQ7cHd-478qJ6K9gsUrvTE_pio91PM8vGMZvWfrbze1q9eoq_ZnYnC8OA-xh6FzZAVhNORo9tVClMkXGo3Awbhsf1THZcjJE");'></div>
+<div class="hidden sm:block w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Instagram post showcasing the skyline view from the lounge." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWT0zCzqHRykJQ5_tM6Jc5hpuFSCOyTWRU7XAhEmDnXwFoEgdzLXlar4yFNFxnZNq7tLSs3yzWiRtSBEt98ETQqnbSvAz5PpNTeCldCtrdjLx07I0yZ-p6Jv-G69oJhssTmZu8gPd71fWrFPSn5xgGrwWF3tZ0BpKCNB8ZS4N17YRtkDe9qPr57bO2qEDAkJYLzLZGhbom9EMRDzarKit6xw93Ro-Wcg7PaRRe5obpTXvUw0KOlpGmQ3FUqkgV6UDeDnmEVJp_a-_z");'></div>
+</div>
+<!-- Instagram CTA -->
+<div class="p-4 flex justify-center">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90" href="#">
+<span class="truncate">Follow @euphoriaskylounge</span>
+</a>
+</div>
+</main>
+<!-- Footer -->
+<footer class="mt-16 border-t border-solid border-white/10 px-4 py-8 text-center text-white/60">
+<div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+<p class="text-sm">© 2024 Euphoria The Sky Lounge. All Rights Reserved.</p>
+<div class="flex gap-4">
+<a class="text-white/60 hover:text-white" href="#">Facebook</a>
+<a class="text-white/60 hover:text-white" href="#">Instagram</a>
+<a class="text-white/60 hover:text-white" href="#">Twitter</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

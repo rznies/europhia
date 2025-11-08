@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Menu - Euphoria The Sky Lounge</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Space+Grotesk:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#00BFFF", // Neon Blue
+            "secondary": "#FF00FF", // Neon Magenta
+            "background-light": "#f5f7f8",
+            "background-dark": "#121212",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"],
+            "heading": ["Space Grotesk", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+          boxShadow: {
+            'glow-primary': '0 0 15px 5px rgba(0, 191, 255, 0.3), 0 0 5px 1px rgba(0, 191, 255, 0.2)',
+            'glow-secondary': '0 0 15px 5px rgba(255, 0, 255, 0.3), 0 0 5px 1px rgba(255, 0, 255, 0.2)'
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .glassmorphic {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-background-dark font-display text-[#E0E0E0]">
+<div class="relative min-h-screen w-full group/design-root overflow-x-hidden">
+<header class="sticky top-0 z-40 w-full backdrop-blur-lg" style="background: rgba(16, 16, 18, 0.8);">
+<div class="mx-auto flex max-w-7xl items-center justify-between whitespace-nowrap px-6 py-4">
+<div class="flex items-center gap-4 text-white">
+<div class="h-7 w-7 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="font-display text-xl font-bold leading-tight tracking-[-0.015em] text-white">Euphoria The Sky Lounge</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="homePage.html">Home</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="aboutPage.html">About</a>
+<a class="text-sm font-medium text-white transition-colors hover:text-primary" href="menuPage.html">Menu</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="EventsPage.html">Events</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="GalleryPage.html">Gallery</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="contact.html">Contact</a>
+</nav>
+<button class="hidden min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 md:flex">
+<span class="truncate">Book a Table</span>
+</button>
+</div>
+</header>
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<!-- Hero Section -->
+<div class="@container px-4 sm:px-6 lg:px-8">
+<div class="py-12 sm:py-16">
+<div class="flex min-h-[60vh] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4 rounded-xl" data-alt="A panoramic night view of a luxurious rooftop lounge with city lights in the background" style='background-image: linear-gradient(rgba(18, 18, 18, 0.6) 0%, rgba(18, 18, 18, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDB7Ks8yPJOXStKV-l9PXUSx0fmNOjtbHBw9cW_D5wzCAt-CubuStqvpGgyLUv0ijYvc0VFfmFRi5jjtN1jBZb4KKldSmyGzMolirE8mJr0RvvF7kOGv-m6S1KnLu_yGDzfxfbL7qISNiaeDZi5iUNwF1eicrYCThZRpOX7R769Oq_yo9XZjOESQCbvL6lUclbWR6i2HiYQ6HsKLLWrOqIv9k5ZLA3OaHwTGzpBo4h-ZWFegCtZ41iZeJglE4CZT80BA5SnYIagr5zH");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="font-heading text-white text-5xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+                    Our Signature Menu
+                  </h1>
+<h2 class="font-display text-base font-normal leading-normal text-[#E0E0E0] sm:text-lg">
+                    Crafted with passion, served with a view.
+                  </h2>
+</div>
+</div>
+</div>
+</div>
+<!-- Chips / Filters -->
+<div class="sticky top-0 z-10 py-4" style="background: radial-gradient(ellipse at top, rgba(18,18,18,0.95) 0%, #121212 70%);">
+<div class="flex gap-3 p-3 flex-wrap justify-center px-4 sm:px-6 lg:px-8">
+<button class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-primary px-5 text-sm font-bold text-black shadow-glow-primary">
+                Starters
+              </button>
+<button class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-transparent border border-white/20 px-5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10">
+                Mains
+              </button>
+<button class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-transparent border border-white/20 px-5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10">
+                Desserts
+              </button>
+<button class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-transparent border border-white/20 px-5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10">
+                Cocktails
+              </button>
+<button class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-transparent border border-white/20 px-5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10">
+                Mocktails
+              </button>
+</div>
+</div>
+<!-- Menu Sections -->
+<main class="px-4 sm:px-6 lg:px-8">
+<!-- Starters Section -->
+<section class="py-12" id="starters">
+<h2 class="font-heading text-white text-3xl font-bold leading-tight tracking-tight px-4 pb-8">Starters</h2>
+<div class="grid grid-cols-1 gap-6 @[480px]:grid-cols-2 @[960px]:grid-cols-3 @[1200px]:grid-cols-4">
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Truffle Parmesan Fries in a metal basket" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCSx89gG-5gVV3bDU9jMDAtpUbXTCR17TCrXcTf_6Up7ataIqbYJNgFRQP4MbIrSqoDuFNG3T007rr3FqOQUPy16h8sMyPoOF_Qcb2HrjudgCVagsYCwyF3_BZmHHFKYcpIQxNy1SYKumQNHvvRNg5YKyrbhRusozxUgrn_LcufJb0kG8Y9R-5tvEgCrLQ7Fqxs6FO9siv5EeHvd9MhSWC-v2n_AVNPwPd7IVIJB6Q-VIlSy9nZ9eRhaPRjhyiyTZtHB0d9WqkCOeLG");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Truffle Parmesan Fries</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Crispy fries tossed with truffle oil and freshly grated parmesan.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$15</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl border border-secondary shadow-glow-secondary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Spicy Tuna on top of crispy rice cakes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMiqeAI1DHNNn5drKh9FSh6a3K_CwJ1xh4Ob19e8feS8N4ZhWyPyF-qhLYw-BOy-NEppxk_wRZSmy5yG-6jZb4jNczrhOeElwX_CUNYhcszGU8jSm03mh6S4tiGwq2-3mPgIPGjFxmY4St6PvJpUYTwjTtrKTHObkrSp58kyf2RHfTPSxObVIniRdr5G1ku7Unf2GwuApqcn_bi3NJ3qS_FMnvGOI_G3dwRD8qVwVf-J7le5zUtvGwz3l8Zq7NzyLrHJw8rQBvqxGh");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Spicy Tuna Crispy Rice <span class="text-secondary text-xs font-medium tracking-wider">CHEF'S PICK</span></p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Toasted crispy rice topped with spicy tuna and serrano chili.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$22</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Creamy burrata cheese with prosciutto and basil" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDcWuLEreOUS97smuuvW_O_bQUy62EigoFnp-1JR4gc-6HmjFzDOszONnJNtozzAoNlbDJ72xIDZ7ZymKiMzhJLgYwEW1z-Z6PF1taSgALtmGXYqGcqJm__fmssZWaNmhhbIjk2XV77Vesms_IthiRBmHLM7c0a4yeHm7v4xXsrATZ5kD4OE46AMF0W-ncMu3xTGP2oHaEIDP-_TnN90EOgFMApFzc7i_dUfmDyLbwl_ehtdHiAaW9DwpxAO1m9FIhdnUfB40PDOS_P");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Burrata &amp; Prosciutto</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Creamy burrata with aged prosciutto, balsamic glaze, and basil.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$24</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Two mini wagyu beef sliders on a wooden board" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtf5rlkQO13O5f3ZDEsXntNl1arPgN_uapAOlKhirmCuDq1IWS4DPuy45-xvP3_9mtqiSaKRwwfziULPP0IpTed_w84K-kUMZchzUr8dvHyKpityFgdNaJUVj7ZnKU68l4iVClL1GGEhLYKEcc7sR-o8v7iT_8QuxRgxA0SB3sy7xzRYrsUyya2AalSMOl9Sowf8vgPN52hsP7RMpN395BtbYSbLkzANFUZ9QHlJ1L6GRqGhhPVLKJB-Csc_ibKQR_0coEPhdbDGk0");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Wagyu Beef Sliders</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Two mini sliders with caramelized onions and aged cheddar.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$28</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Cocktails Section -->
+<section class="py-12" id="cocktails">
+<h2 class="font-heading text-white text-3xl font-bold leading-tight tracking-tight px-4 pb-8">Cocktails</h2>
+<div class="grid grid-cols-1 gap-6 @[480px]:grid-cols-2 @[960px]:grid-cols-3 @[1200px]:grid-cols-4">
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl border border-primary shadow-glow-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A vibrant blue cocktail in a coupe glass with a lemon twist" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAjGg311svKsJnMKREQn2hQXSMzPocijQO4ENHi-4D2yohCfxHVHanQdmNNgLYNvh8EyZktQBep9XCSEUCfCr3SY5yTofVRoSmCWdRWcZbgqpi4Ps1y4x6mkTWvVK98q30BuqPYqTQ73NZECPK7kP3S6-SJ5CxlrPexoVKlMz_bRv6o9oKUS9QKe0JLaU_Xm8KJVGrjk1lDDi3tzWSLbk_GCi89P5P5InXXHZ8Pw0mEjgzbdx0VeyCHiSeVzrMyHDSXRNnbNKzi0Spj");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Skyline Spritz <span class="text-primary text-xs font-medium tracking-wider">SIGNATURE</span></p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">A refreshing mix of prosecco, elderflower, and a hint of blue curaçao.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$18</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="An old fashioned cocktail with a large ice cube and orange peel" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCkZbk1rOULiTrkY92jqRv59DYQN4YIx-OkIF0JiutSJOUrnzmRhH8tZqCKVxigSBRZwlw-FEHbLdbU6--ka1zI0Gp2IDc2M_AUpEGCNPWhVd5-TEqK5PsydZwmvz_s6YsDN7QyWavar3vTHsQMxr9qPurS2tqtiy9kN6VvT18pmZZbkGkDp3YrJ63MCz2Tx4cEVzYfBuPNinNcpXbOMWL8JngWPqZPgH__3VES6wE8O8A1N0_GdBpTP8yvsjAmDnILrOL7cVJ_DECH");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Smoked Old Fashioned</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Bourbon, bitters, and sugar, infused with applewood smoke.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$20</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A bright pink cosmopolitan cocktail in a martini glass" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD78llRPaenNlwh6bUfOx0MXAcmLm1c1PIx_9Gbw_Zjj2TSABFkOEs3I7thoNoG1vzUe6R6lp6gdjaeuf0Z8iinFAHQ8dmoTwf1Gcfl-7o1xUybUUNlRdfmZYlEKEUS-iWToY8v4OJKHfIf6KkP4RLt_eYxMBBqV01LwjRmHh2pBK1EXJ5Vev3oI0zDGtquRAhZWGLFTytPVSpEyskI5dwxiS_NN9cGUVj7FWwkmn6a4KlouCZU2fvXhpx_2Xj6DhVwyrjj8rxvSoik");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Neon Cosmopolitan</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Vodka, cranberry, triple sec, and fresh lime with a magenta hue.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$17</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 glassmorphic rounded-xl">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A spicy margarita with a chili salt rim" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7MbjJQ5-Bbhg1W_rscTXRLBIGsB7nRRi_ZIDf_qcsXz3tJ8lOVAbf_LXnyJxsn1a60eVRVqcXtKBa8_tpypwQniV6Sbu0_auShmwBvqH_aJmrZRfrjYdYZ9nwI__aahWcJE8edYiw7mtFdtx1o2fpYKdD4TWbQTPs3Zw_2nH2cVIUQGcH4MSsC8ZfYeg7ky11VKEtsOf1916XmUJYv-CnHmxVdWqSSijUdmOO_Hdeo71Bmj_0WsnRhKo8VIb3T6FPnOoTMQOauG8J");'></div>
+<div>
+<p class="text-white text-lg font-bold leading-normal">Passionfruit Chili Margarita</p>
+<p class="text-[#b0b0b0] text-sm font-normal leading-normal mt-1">Tequila, passionfruit purée, lime, and a hint of chili spice.</p>
+<p class="text-primary text-base font-semibold leading-normal mt-2">$19</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+</div>
+<!-- Sticky CTA -->
+<button class="fixed bottom-6 right-6 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-6 bg-primary text-black text-base font-bold leading-normal tracking-wide shadow-glow-primary hover:scale-105 transition-transform z-50">
+<span class="material-symbols-outlined mr-2">calendar_month</span>
+<span class="truncate">Book a Table</span>
+</button>
+</div>
+</body></html>

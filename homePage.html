@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Euphoria The Sky Lounge</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00BFFF",
+                        "secondary": "#FF00FF",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101012",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glassmorphic-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glassmorphic-card:hover {
+            border: 1px solid rgba(0, 191, 255, 0.5);
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+        }
+        .scroll-container {
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        .scroll-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, and Opera */
+        }
+    </style>
+</head>
+<body class="bg-background-dark font-body text-[#EAEAEA] antialiased">
+<div class="relative min-h-screen">
+<!-- Floating Action Button -->
+<button class="fixed bottom-6 right-6 z-50 flex h-16 w-16 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-primary text-background-dark shadow-lg transition-transform hover:scale-105">
+<span class="material-symbols-outlined text-3xl">calendar_month</span>
+</button>
+<!-- TopNavBar (Sticky) -->
+<header class="sticky top-0 z-40 w-full backdrop-blur-lg" style="background: rgba(16, 16, 18, 0.8);">
+<div class="mx-auto flex max-w-7xl items-center justify-between whitespace-nowrap px-6 py-4">
+<div class="flex items-center gap-4 text-white">
+<div class="h-7 w-7 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="font-display text-xl font-bold leading-tight tracking-[-0.015em] text-white">Euphoria The Sky Lounge</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-white transition-colors hover:text-primary" href="homePage.html">Home</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="aboutPage.html">About</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="menuPage.html">Menu</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="EventsPage.html">Events</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="GalleryPage.html">Gallery</a>
+<a class="text-sm font-medium text-white/70 transition-colors hover:text-primary" href="contact.html">Contact</a>
+</nav>
+<button class="hidden min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 md:flex">
+<span class="truncate">Book a Table</span>
+</button>
+</div>
+</header>
+<main>
+<!-- HeroSection -->
+<section class="relative h-[90vh] min-h-[600px] w-full overflow-hidden">
+<video autoplay="" class="absolute left-0 top-0 h-full w-full object-cover" loop="" muted="" playsinline="">
+<source src="https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-city-at-night-4439-large.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/70 to-transparent"></div>
+<div class="relative z-10 flex h-full flex-col items-center justify-center text-center">
+<div class="flex flex-col gap-4">
+<h1 class="font-display text-5xl font-bold leading-tight tracking-tighter text-white sm:text-6xl md:text-8xl">Experience Euphoria</h1>
+<h2 class="mx-auto max-w-2xl text-lg font-normal leading-normal text-white/80">Discover a sky-high experience where breathtaking views and exquisite flavors meet.</h2>
+</div>
+<div class="mt-8 flex flex-wrap justify-center gap-4">
+<button class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-6 text-base font-bold leading-normal tracking-[0.015em] text-background-dark transition-transform hover:scale-105">
+<span class="truncate">Book a Table</span>
+</button>
+<button class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border border-white/20 bg-white/10 px-6 text-base font-bold leading-normal tracking-[0.015em] text-white backdrop-blur-sm transition-colors hover:bg-white/20">
+<span class="truncate">View Menu</span>
+</button>
+</div>
+</div>
+</section>
+<div class="mx-auto max-w-7xl space-y-24 px-6 py-20 sm:space-y-32 sm:py-28">
+<!-- About Us Section -->
+<section class="text-center">
+<h2 class="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">About Euphoria</h2>
+<p class="mx-auto mt-4 max-w-3xl text-lg leading-relaxed text-white/70">
+                        Perched atop the city, Euphoria The Sky Lounge offers an unparalleled escape. Indulge in artisanal cocktails, gourmet bites, and panoramic views that stretch to the horizon. It's not just a lounge; it's an experience waiting to be discovered.
+                    </p>
+</section>
+<!-- Menu Highlights -->
+<section>
+<div class="text-center">
+<h2 class="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">A Taste of the Sky</h2>
+<p class="mx-auto mt-2 max-w-2xl text-lg text-white/70">Curated selections from our executive chef, designed to delight your senses.</p>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="glassmorphic-card group rounded-xl p-6 transition-all duration-300">
+<img class="mb-4 h-60 w-full rounded-lg object-cover" data-alt="A vibrant blue cocktail in a coupe glass with a lime twist garnish" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-Vg8eG1cCxpNflpPfRcmBJ72JZlReBzsKy0CvEFFwvfrT3bxsI6mQ4dZcoLWgUa-uzBED1jlxcqJJTzAO6kzNBf18qzLl57XnUKcbefelgUb37s4_yJhB57XxGU09H3B_GYSFBZE2j74oyvhipnlPGYbQ-gAwrkcpxeS6Ta69MdI2ZwnJEina4aGWpuLJRzVQdyjoEvMK1oGp0FWadBGJfAhJE-NuNwHg-0BHhO5uJVPqIqwdif1q3AKcRV1PeueV4joeOEYhhPk5"/>
+<h3 class="font-display text-xl font-bold text-white">Galaxy G&amp;T</h3>
+<p class="mt-2 text-white/70">A cosmic blend of Empress 1908 Gin, elderflower tonic, and a hint of lime.</p>
+</div>
+<div class="glassmorphic-card group rounded-xl p-6 transition-all duration-300">
+<img class="mb-4 h-60 w-full rounded-lg object-cover" data-alt="A gourmet wagyu beef slider with truffle fries on the side" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQcTMjCZjQgQ36ezCcHSZIIM6-FQlCoyLxOkU5eyeb58d8ZIHNdhKTSRyqShgMu70p9zGb2PBtozHJJ-PJsDqvW5K6-HCpSNchqreMJjbCd4uPiLKTPUmAum35_v3aQGDgA8XmQJ1smWX27ehieEE1lck3Ed_XP8OPFA-HoQA1a5HWSlnkxJRiM0kXA_jYrbm1O2MwqmQsIMdDQlODjTPGXphG0Ja4IQdhhxqQnKcYp91lLPCxGUvNOUkGdkxKWzuXBvZeNkCqKv-Y"/>
+<h3 class="font-display text-xl font-bold text-white">Wagyu Truffle Sliders</h3>
+<p class="mt-2 text-white/70">Miniature burgers with premium wagyu, truffle aioli, and aged cheddar.</p>
+</div>
+<div class="glassmorphic-card group rounded-xl p-6 transition-all duration-300">
+<img class="mb-4 h-60 w-full rounded-lg object-cover" data-alt="A plate of fresh oysters with lemon wedges and mignonette sauce" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDede32BIczXwawmeVJF019xDfukG0TDe7i8DhKMS4HJKhtXRXBI7bvVlAEfnQ6DJhaOdxACQ5DfKtkjxG8a9S5XS8RcG9ea5V71zcDUE3TXBV_dPiJni7drx-CsCaVYCxmQhq7quvRSr2xh-h2lBWiPVsK67z95g_B5uD-n1LhlzN4h0exydWKWMzAzceLn85SwNL-Nozyc1ZGJKBU3qzIIKDGduYxqo_EHvVXqNZP1V1npriYXIisIKHP0R_LgNWEaT1w-CHLC0Im"/>
+<h3 class="font-display text-xl font-bold text-white">Ocean's Kiss Oysters</h3>
+<p class="mt-2 text-white/70">Freshly shucked oysters served with a classic mignonette and fresh lemon.</p>
+</div>
+</div>
+</section>
+<!-- Gallery Preview -->
+<section>
+<h2 class="font-display text-center text-3xl font-bold leading-tight tracking-tight sm:text-4xl">Visions of Euphoria</h2>
+<div class="scroll-container mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4">
+<img class="h-80 w-auto flex-shrink-0 snap-center rounded-xl object-cover" data-alt="Interior of a modern, upscale restaurant with dim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyuVn30Hm91N2xuRUZX80fdIPPdNaUddkGUVZRUIRSANPLKncYj5lVFh2d0uTEJDZB1jPEnBP0K_FTH22A0TEFZjdg2XfwPgEao-60w_UWcLarLclBh5ZLLMb2OuE6GwF9MyUoYw3hovpeLjhhf5_0nKGzXBXMnoOyOVi90ktwt6nNCwOaWM-ZyqwC36iIYiwtuUmhx-FsBANo1GrQVsiGQ0mhZZxoogOTYl1jH9brT7xk-kvbdDOnsyPOO2XnuNTHcnez-4kOOTor"/>
+<img class="h-80 w-auto flex-shrink-0 snap-center rounded-xl object-cover" data-alt="A beautifully plated dish being served at a restaurant table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3KoCMdn3blt1M8QJylCp_u3THWLSeyCzGhq26DSFCslsdj5I2gO-2DLdiHPWoYf3OXbBn7gremfc_gmgpRQf4rZPoDVn6a2dS9yb8S5qvOlsyjNLOTKfXb9aaZ_2eMfHI9cSgCQmDLzsQr5_UhlBnoPSCHImB0mH62OXgfJNGXvTswnDLPMBCnABe6FQjXezUgYiya7jU6XPC1WlwkjJDvNmhYEUQlsrpc9uu1NjJ81ZRURJyxJk2OoxGKk2UMcC2enuS5cVK-_wG"/>
+<img class="h-80 w-auto flex-shrink-0 snap-center rounded-xl object-cover" data-alt="A bartender crafting a cocktail behind a well-lit bar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpzCaO6oJSkrnzr3Db3RssT231pDWv3aaoqb3-s-hTzAtXTosSbr9LedM1gjv9ihBI3Wly8QG-uca1G0RaIkstQlUertOIYD6v0DGkTOTBTZPTK2IMQbXyCaTmaz5yK-LMJ_z7tZ5tPg_kgnhfL0emvT_oAQxQ3vnDDu2bmLwS2m8D7SLAgE5jMB-wK941VY4cm1qeCinIq-PZc3d3_rLX7kBC7wMAHL32YAl_UnjPi9TrfwTb5FvrvaXV4SFgcTqdMZf1oRUevqOw"/>
+<img class="h-80 w-auto flex-shrink-0 snap-center rounded-xl object-cover" data-alt="People enjoying drinks and conversation at a rooftop bar at night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI5utaH4BScuMmvRKbE1maePXVQBXvg0xyIyO0ctvVQz4k23cMFIstT3a9xtFkF3CF-89LLV-N1ySWx64Cl-lf-t7sSqu_rWSMcvwkELReCWK7_pQ4L6_K8Lrsb0rDnbg8oIny1jQFhk700d4fb4rYQ08ZxIOPnPnmw2AVm9XcteeYTpKj7VwPBdUHr77NgUhNR0ABEQ3heyMC-nubjhvxHzXOgBoN2BO8LwID6FB8AJ6l_tzquwc07yAiQoo7ETIAAqhj6jVkhcqi"/>
+<img class="h-80 w-auto flex-shrink-0 snap-center rounded-xl object-cover" data-alt="A DJ performing for a crowd at an evening event" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEJodEZhS0K2QC7L7bTAs5ir5X7tnhXf5x5Q9oQBBFGv6gd_CVOh5jGA0EXSstubGtw-IqGM0eHGNa98bgFqlkEDwQh87JJ87GTjKM_v2efH9V9EsihvbulX44VxYsawtwrNAUKzIprwvHdK3jUpKKNoaw0Dkxx9ZL2Xe92vOtTAhohTJUXUsJi-BVymhSWJZ3K4YtOdGx8sBBN14oOyBbUhFUBZ7Z3QBLt2vpIDyhfGNTXTaCpyWgqMHianw3aCrxP2eSuNuhAOB3"/>
+</div>
+</section>
+<!-- Testimonials -->
+<section>
+<h2 class="font-display text-center text-3xl font-bold leading-tight tracking-tight sm:text-4xl">What Our Guests Say</h2>
+<div class="mt-12 flex items-center justify-center">
+<div class="relative w-full max-w-3xl">
+<div class="glassmorphic-card rounded-xl p-8 text-center">
+<p class="text-xl italic leading-relaxed text-white">"The view is absolutely breathtaking, matched only by the incredible cocktails. Euphoria is my new favorite spot in the city. A truly magical experience!"</p>
+<p class="mt-6 font-display text-lg font-bold text-primary">- Jessica L.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner -->
+<section>
+<div class="rounded-xl bg-gradient-to-r from-primary to-secondary p-10 text-center">
+<h2 class="font-display text-3xl font-bold text-background-dark sm:text-4xl">Your Table Awaits.</h2>
+<p class="mx-auto mt-2 max-w-xl text-lg text-background-dark/90">Secure your spot and get ready for an unforgettable evening above the city lights.</p>
+<button class="mt-6 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-background-dark text-white text-base font-bold leading-normal tracking-[0.015em] mx-auto transition-transform hover:scale-105">
+<span class="truncate">Reserve a Table</span>
+</button>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="border-t border-white/10 bg-background-dark">
+<div class="mx-auto max-w-7xl px-6 py-12">
+<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+<div>
+<div class="flex items-center gap-3">
+<div class="h-7 w-7 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path></svg>
+</div>
+<h2 class="font-display text-xl font-bold text-white">Euphoria</h2>
+</div>
+<p class="mt-4 text-white/60">Experience the height of luxury.</p>
+</div>
+<div class="grid grid-cols-2 gap-8 lg:col-span-2">
+<div>
+<p class="font-display font-semibold text-white">Contact</p>
+<ul class="mt-4 space-y-2 text-sm text-white/60">
+<li>123 Skyline Ave, Metropolis</li>
+<li>contact@euphoria.lounge</li>
+<li>(555) 123-4567</li>
+</ul>
+</div>
+<div>
+<p class="font-display font-semibold text-white">Hours</p>
+<ul class="mt-4 space-y-2 text-sm text-white/60">
+<li>Mon-Thurs: 5pm - 12am</li>
+<li>Fri-Sat: 5pm - 2am</li>
+<li>Sunday: Closed</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/50">
+<p>© 2024 Euphoria The Sky Lounge. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
